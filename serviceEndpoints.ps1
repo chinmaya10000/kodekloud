@@ -27,7 +27,7 @@ New-AzVM -Name "vm-0a" `
     -ResourceGroupName $rg `
     -Location $region `
     -Size 'Standard_B1s' `
-    -Image UbuntuLTS `
+    -Image Ubuntu2204 `
     -VirtualNetworkName $vnetName `
     -SubnetName "default" `
     -Credential $credential
